@@ -1941,20 +1941,15 @@ body {
 
 } */
 
-/* @media (max-width: 550px) {
-
-    #easy-steps {
-        transform: translateX(30px);
-    }
-
-} */
-
-@media (max-width: 530px) {
+@media (max-width: 550px) {
 
     .testimonial-titles {
-        margin-left: 20px;
-        border: 2px solid greenyellow;
+        margin: 0;
     }
+
+}
+
+@media (max-width: 530px) {
 
     .easy-steps-title2 {
         font-size: 45px;
@@ -2091,6 +2086,14 @@ body {
 
     .heart {
         margin-left: 100px;
+    }
+
+}
+
+@media (max-width: 390px) {
+
+    .testimonial-titles {
+        width: 320px;
     }
 
 }
