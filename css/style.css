@@ -1453,6 +1453,7 @@ body {
     height: 38px;
     float: right;
     display: none;
+    margin-right: 10px;
 }
 
 .burger-lines:hover {
@@ -1486,7 +1487,7 @@ body {
 
 .en-cont {
     width: 40px;
-    margin-right: 50px;
+    margin-right: 60px;
     margin-top: -30px;
     float: right;
     display: none;
