@@ -1175,7 +1175,6 @@ body {
     height: 68px;
     background: #FFFFFF;
     border-radius: 10px;
-    margin-left: 252px;
     background-image: url(../img/email.png);
     background-repeat: no-repeat;
     background-position: 31px;
@@ -1197,6 +1196,8 @@ body {
 .email-btn-cont {
     display: flex;
     margin-top: 74px;
+    margin: 74px auto 0 auto;
+    width: 628px;
 }
 
 .subscribe-btn {
@@ -1927,6 +1928,27 @@ body {
 
 }
 
+@media (max-width: 660px) {
+
+    .email-btn-cont {
+        max-width: 425px;
+        width: 95%;
+        margin-top: 40px;
+        display: grid;
+        flex-wrap: wrap;
+    }
+
+    .email__input-cont {
+        max-width: 421px;
+        width: 100%;
+    }
+
+    .subscribe-btn {
+        margin: 10px auto 0 auto;
+    }
+
+}
+
 /* @media (max-width: 610px) {
 
 
@@ -1954,6 +1976,10 @@ body {
 
     .cris-cont {
         margin-left: 25px;
+    }
+
+    .subscribe-title {
+        line-height: 30px;
     }
 
 }
@@ -2170,6 +2196,10 @@ body {
         width: 90%;
     }
 
+    .subscribe-title {
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width: 350px) {
@@ -2200,6 +2230,14 @@ body {
     
     .trip-girl {
         width: 295px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    .subscribe-title {
+        font-size: 25px;
     }
 
 }
