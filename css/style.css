@@ -627,7 +627,7 @@ body {
     max-width: 1114px;
     width: 100%;
     margin: 185px auto 0 auto;
-    transform: translateX(50px);
+    /* transform: translateX(50px); */
     display: flex;
 }
 
@@ -1932,22 +1932,22 @@ body {
 
 } */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 
     #easy-steps {
         transform: translateX(50px);
         margin: 50px auto 0 auto;
     }
 
-}
+} */
 
-@media (max-width: 550px) {
+/* @media (max-width: 550px) {
 
     #easy-steps {
         transform: translateX(30px);
     }
 
-}
+} */
 
 @media (max-width: 530px) {
 
@@ -1996,13 +1996,13 @@ body {
 
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
 
     .easy-steps-title2 {
         width: 318px;
     }
 
-}
+} */
 
 @media (max-width: 480px) {
 
@@ -2079,6 +2079,22 @@ body {
 
 }
 
+@media (max-width: 400px) {
+
+    .trip-to-greece {
+        width: 318px;
+    }
+
+    .trip-girl {
+        margin-left: 0;
+    }
+
+    .heart {
+        margin-left: 100px;
+    }
+
+}
+
 @media (max-width: 385px) {
 
     .desitnation-title2 {
@@ -2139,6 +2155,18 @@ body {
 
     .destination-card2 {
         max-width: 90vw;
+    }
+
+}
+
+@media (max-width: 347px) {
+
+    .trip-to-greece {
+        width: 295px;
+    }
+    
+    .trip-girl {
+        width: 295px;
     }
 
 }
