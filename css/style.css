@@ -1,5 +1,9 @@
 /* Created By Nika Titilokashvili */
 
+body {
+    overflow-x: scroll;
+}
+
 .decore {
     position: absolute;
     right: 0;
@@ -14,12 +18,8 @@
 
 .main-cont {
     max-width: 1160px;
-    width: 100%;
+    width: 99%;
     margin: 0 auto;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 /* --------------------- Header --------------------- */
@@ -40,7 +40,8 @@ html {
 }
 
 .header-menu {
-    width: 825px;
+    max-width: 825px;
+    width: 100%;
     height: 40px;
     float: right;
     display: flex;
@@ -50,7 +51,8 @@ html {
 .header__menu {
     display: flex;
     justify-content: space-between;
-    width: 590px;
+    max-width: 590px;
+    width: 100%;
 }
 
 .header__menu-items {
@@ -69,14 +71,16 @@ html {
 }
 
 .reg-cont {
-    width: 183px;
+    max-width: 183px;
+    width: 100%;
     display: flex;
     float: right;
     justify-content: space-between;
 }
 
 .header-reg {
-    width: 102px;
+    max-width: 102px;
+    width: 100%;
     height: 40px;
     background: none;
     border: 1px solid #212832;
@@ -173,7 +177,8 @@ html {
 
 .desitnation-title {
     margin-top: 70px;
-    width: 430px;
+    max-width: 430px;
+    width: 100%;
     height: 30px;
     text-transform: uppercase;
     color: #DF6951;
@@ -187,7 +192,8 @@ html {
 
 .desitnation-title2 {
     height: 267px;
-    width: 545px;
+    max-width: 545px;
+    width: 100%;
     margin-top: 24px;
     letter-spacing: -0.04em;
     z-index: 3;
@@ -204,7 +210,8 @@ html {
 }
 
 .desitnation-text {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 90px;
     margin-top: 30px;
     color: #5E6282;
@@ -217,7 +224,8 @@ html {
 }
 
 .desitnations-btn-cont {
-    width: 379px;
+    max-width: 379px;
+    width: 100%;
     height: 60px;
     margin-top: 34px;
     display: flex;
@@ -340,6 +348,7 @@ html {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .category-card {
@@ -348,6 +357,42 @@ html {
     margin-top: 110px;
     text-align: center;
     align-items: center;
+}
+.category-card:hover .category-card-hov {
+    display: block;
+}
+
+.category-card1 {
+    width: 190px;
+    height: 227px;
+    margin-top: 110px;
+    text-align: center;
+    align-items: center;
+}
+.category-card1:hover .category-card-hov {
+    display: block;
+}
+
+.category-card2 {
+    width: 190px;
+    height: 227px;
+    margin-top: 110px;
+    text-align: center;
+    align-items: center;
+}
+.category-card2:hover .category-card-hov {
+    display: block;
+}
+
+.category-card3 {
+    width: 190px;
+    height: 227px;
+    margin-top: 110px;
+    text-align: center;
+    align-items: center;
+}
+.category-card3:hover .category-card-hov {
+    display: block;
 }
 
 .category-card:hover {
@@ -359,8 +404,31 @@ html {
     transition: 0.7s;
 }
 
-.category-card:hover .category-card-hov {
-    display: block;
+.category-card1:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    width: 267px;
+    height: 314px;
+    transition: 0.7s;
+}
+
+.category-card2:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    width: 267px;
+    height: 314px;
+    transition: 0.7s;
+}
+
+.category-card3:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+    border-radius: 36px;
+    width: 267px;
+    height: 314px;
+    transition: 0.7s;
 }
 
 .category-card-hov {
@@ -435,6 +503,7 @@ html {
     position: relative;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .destination-card {
@@ -445,8 +514,25 @@ html {
     box-shadow: (0px 100px 80px rgba(0, 0, 0, 0.02)), (0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)), (0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)), (0px 20px 13px rgba(0, 0, 0, 0.01)), (0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)), (0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
 }
 
+.destination-card1 {
+    width: 315px;
+    height: 457px;
+    border-radius: 24px;
+    position: relative;
+    box-shadow: (0px 100px 80px rgba(0, 0, 0, 0.02)), (0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)), (0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)), (0px 20px 13px rgba(0, 0, 0, 0.01)), (0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)), (0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
+.destination-card2 {
+    width: 315px;
+    height: 457px;
+    border-radius: 24px;
+    position: relative;
+    box-shadow: (0px 100px 80px rgba(0, 0, 0, 0.02)), (0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)), (0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)), (0px 20px 13px rgba(0, 0, 0, 0.01)), (0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)), (0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+
 .destination-card-img {
     margin: 0 auto;
+    max-width: 100%;
 }
 
 .destination-card:hover {
@@ -455,15 +541,28 @@ html {
     transition: 0.5s;
 }
 
+.destination-card1:hover {
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
+.destination-card2:hover {
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    transition: 0.5s;
+}
+
 .desitnation-card-texts {
     width: 317px;
+    max-width: 100%;
     height: 130px;
     background: #FFFFFF;
     border-radius: 0px 0px 24px 24px;
     position: absolute;
-    left: -1px;
+    left: 0;
     right: 0;
-    bottom: 0;
+    bottom: -1px;
 }
 
 .designation-card-nameprice {
@@ -533,7 +632,8 @@ html {
 }
 
 .next-trip {
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
 }
 
 .easy-steps-title {
@@ -548,7 +648,8 @@ html {
 
 .easy-steps-title2 {
     margin-top: 15px;
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
     color: #14183E;
 
     font-family: 'Volkhov';
@@ -560,13 +661,15 @@ html {
 }
 
 .easy-steps-lists {
-    width: 395px;
+    max-width: 395px;
+    width: 100%;
     height: 289px;
     margin-top: 31px;
 }
 
 .choose-destination-cont {
-    width: 395px;
+    max-width: 395px;
+    width: 100%;
     height: 64px;
     display: flex;
 }
@@ -600,7 +703,8 @@ html {
 }
 
 .make-payment-cont {
-    width: 395px;
+    max-width: 395px;
+    width: 100%;
     height: 64px;
     display: flex;
     margin-top: 48px;
@@ -716,8 +820,8 @@ html {
 
 .ongoing-trip-cont {
     position: absolute;
-    top: 298px;
-    right: 20px;
+    top: 280px;
+    right: -10px;
     width: 263px;
     height: 129px;
     display: flex;
@@ -815,11 +919,11 @@ html {
 
 .people-say {
     max-width: 1160px;
+    width: 100%;
     margin-top: 200px;
     margin: 200px auto 0 75px;
     display: flex;
     position: relative;
-    width: 100%;
 }
 
 .testimonial-titles {
@@ -1046,7 +1150,8 @@ html {
 .subscribe-title {
     margin: 0 auto;
     padding-top: 79px;
-    width: 859px;
+    max-width: 859px;
+    width: 100%;
     height: 108px;
     color: #5E6282;
 
@@ -1126,7 +1231,8 @@ html {
 /* ----------------------------- last-header -------------------------- */
 
 #last-header {
-    width: 1060px;
+    max-width: 1060px;
+    width: 100%;
     height: 160px;
     margin: 180px auto 0 auto;
     display: flex;
@@ -1383,6 +1489,7 @@ html {
     float: right;
     display: none;
 }
+
 .en-cont:hover {
     cursor: pointer;
 }
@@ -1465,7 +1572,62 @@ html {
     }
 
     .subscribe-pluses {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1340px) {
+
+    .people-say {
+        margin-left: 0;
+    }
+
+    .partners-cont {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 1310px) {
+
+    .pluses {
+        transform: translateX(-20px);
+    }
+
+}
+
+@media (max-width: 1280px) {   
+
+    .trip-to-greece {
+        position: relative;
+    }
+
+    .ongoing-trip-cont {
+        width: 200px;
+        top: 115px;
+    }
+
+    .label-bg {
+        position: absolute;
+        margin-top: 20px;
+        left: 22px;
+    }
+
+}
+
+@media (max-width: 1238px) {
+
+    .big-send {
         right: 0;
+    }
+
+}
+
+@media (max-width: 1230px) {
+
+    .main-cont {
+        padding: 0;
     }
 
 }
@@ -1485,6 +1647,26 @@ html {
         margin-left: 8px;
     }
 
+    .desitnation-bg {
+        display: none;
+    }
+
+    /* .ongoing-trip-cont {
+        right: 100px;
+        top: 450px;
+    } */
+
+}
+
+@media (max-width: 1200px) {
+
+    .blue-shadow {
+        display: none;
+    }
+    
+    .trip-to-greece-cont {
+        margin: 0 auto 0 auto;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1505,6 +1687,70 @@ html {
         display: flex;
         z-index: 999;
     }
+    
+    .destination-card {
+        margin-right: 10px;
+    }
+
+    .destination-card1 {
+        margin-right: 10px;
+    }
+
+}
+
+
+
+@media (max-width: 1090px) {
+
+    .main-cont {
+        padding: 0 5px;
+    }
+
+}
+
+@media (max-width: 982px) {
+
+    .destination-card {
+        margin: 0 25px 0 auto;
+    }
+
+    .destination-card1 {
+        margin: 0 auto 0 25px;
+    }
+
+    .destination-card2 {
+        margin: 25px auto 0 auto; 
+    }
+
+}
+
+@media (max-width: 980px) {
+
+    .people-cont {
+        margin-left: 50px;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    #easy-steps {
+        display: block;
+        margin: 0;
+    }
+
+    .trip-to-greece-cont {
+        margin-top: 30px;
+    }
+
+    .ongoing-trip-cont {
+        right: 0px;
+    }
+
+    .next-trip {
+        margin: 0 auto;
+        text-align: center;
+    }
 
 }
 
@@ -1513,6 +1759,58 @@ html {
     .girl-bg {
         width: 600px;
         height: 600px;
+    }
+
+    .social-network__cont {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 898px) {
+
+    .people-say {
+        display: grid;
+    }
+
+    .testimonial-titles {
+        margin: 0 auto;
+    }
+
+    .people-cont {
+        margin: 100px auto 0 auto;
+    }
+
+    .vector-up {
+        top: 500px;
+    }
+
+    .vector-down1 {
+        top: 580px;
+    }
+
+}
+
+@media (max-width: 890px) {
+
+    .pluses {
+        display: none;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .partners-cont {
+        flex-wrap: wrap;
+    }
+
+    .partners {
+        margin: 0 15px;
+    }
+
+    .last__header-abouts-cont {
+        margin-left: 10px;
     }
 
 }
@@ -1536,13 +1834,140 @@ html {
         width: 95%;
     }
 
+    .page1-desitnations {
+        height: 720px;
+    }
+
+    .category-card3 {
+        align-self: center;
+    }
+
+
+}
+
+@media (max-width: 780px) {
+
+    /* .category-cards {
+        display: block;
+    } */
+
+    .category-card {
+        margin: 50px auto 60px auto;
+    }
+
+    .category-card1 {
+        margin: 50px auto 60px auto;
+    }
+
+    .category-card2 {
+        margin: 50px auto 60px auto;
+    }
+
+    .category-card3 {
+        margin: 50px auto 60px auto;
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    #last-header {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .social-network__cont {
+        margin: 50px auto 0 auto;
+    }
+
+    .social-text {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 715px) {
+
+    .last__header-abouts-cont {
+        margin: 0 auto 0 auto;
+    }
+
+    .jadoo-cont {
+        margin: 0 auto;
+    }
+
+}
+ 
+@media (max-width: 700px) {
+
+    .destination-card {
+        margin: 0 10px 0 auto;
+    }
+
+    .destination-card1 {
+        margin: 0 auto 0 10px;
+    }
+
+}
+
+@media (max-width: 666px) {
+    
+    .destination-card {
+        margin: 0 auto 25px auto;
+    }
+
+    .destination-card1 {
+        margin: 0 auto 25px auto;
+    }
+
+    .destination-card2 {
+        margin: 0 auto 0 auto;
+    }
+
+}
+
+/* @media (max-width: 610px) {
+
+
+
+} */
+
+@media (max-width: 600px) {
+
+    #easy-steps {
+        transform: translateX(50px);
+        margin: 50px auto 0 auto;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    #easy-steps {
+        transform: translateX(30px);
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .testimonial-titles {
+        margin-left: 20px;
+        border: 2px solid greenyellow;
+    }
+
+    .easy-steps-title2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
 }
 
 @media (max-width: 510px) {
 
-    .desitnation-title2 {
-        font-size: 70px;
-        line-height: 70px;
+    .easy-steps-title2 {
+        font-size: 40px;
+        line-height: 40px;
     }
 
     .desitnation-text {
@@ -1551,6 +1976,30 @@ html {
 
     .desitnation-cont {
         margin-top: 10px;
+    }
+
+    .page1-desitnations {
+        height: 600px;
+    }
+
+}
+
+@media (max-width: 506px) {
+
+    .next-trip {
+        margin-left: 0;
+    }
+
+    .easy-steps {
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .easy-steps-title2 {
+        width: 318px;
     }
 
 }
@@ -1596,6 +2045,30 @@ html {
         margin-left: 10px;
     }
 
+    .easy-steps {
+        margin: 0 auto;
+    }
+
+    .choose-destination-cont {
+        height: auto;
+        width: 318px;
+        display: grid;
+    }
+
+    .make-payment-cont {
+        height: auto;
+        width: 318px;
+        display: grid;
+    }
+
+    .easy-steps-list-img {
+        margin: 0 auto 25px auto;
+    }
+
+    .trip-to-greece {
+        margin-top: 220px;
+    }
+
 }
 
 @media (max-width: 410px) {
@@ -1615,7 +2088,7 @@ html {
 
 }
 
-@media (max-width: 380px)  {
+@media (max-width: 380px) {
 
     .desitnation-btn {
         width: 140px;
@@ -1646,6 +2119,26 @@ html {
 
     .desitnation-title2 {
         width: 90%;
+    }
+
+}
+
+@media (max-width: 350px) {
+
+    .category-title2 {
+        font-size: 45px;
+    }
+
+    .destination-card {
+        max-width: 90vw;
+    }
+
+    .destination-card1 {
+        max-width: 90vw;
+    }
+
+    .destination-card2 {
+        max-width: 90vw;
     }
 
 }
