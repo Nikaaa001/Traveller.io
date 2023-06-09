@@ -1965,7 +1965,8 @@ body {
     }
 
     .cris-cont {
-        width: 93vw;
+        width: 90vw;
+        margin-left: 10px;
     }
 
 }
