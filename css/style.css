@@ -1,8 +1,8 @@
 /* Created By Nika Titilokashvili */
 
-body {
+/* body {
     overflow-x: hidden;
-}
+} */
 
 .decore {
     position: absolute;
@@ -358,6 +358,7 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .category-card:hover .category-card-hov {
     display: block;
 }
@@ -369,6 +370,7 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .category-card1:hover .category-card-hov {
     display: block;
 }
@@ -380,6 +382,7 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .category-card2:hover .category-card-hov {
     display: block;
 }
@@ -391,6 +394,7 @@ body {
     text-align: center;
     align-items: center;
 }
+
 .category-card3:hover .category-card-hov {
     display: block;
 }
@@ -717,6 +721,7 @@ body {
 }
 
 .trip-to-greece {
+    position: relative;
     width: 370px;
     height: 400px;
     margin-top: 60px;
@@ -820,8 +825,8 @@ body {
 
 .ongoing-trip-cont {
     position: absolute;
-    top: 280px;
-    right: -10px;
+    top: 219px;
+    left: 200px;
     width: 263px;
     height: 129px;
     display: flex;
@@ -1600,7 +1605,7 @@ body {
 
 }
 
-@media (max-width: 1280px) {   
+@media (max-width: 1280px) {
 
     .trip-to-greece {
         position: relative;
@@ -1666,7 +1671,7 @@ body {
     .blue-shadow {
         display: none;
     }
-    
+
     .trip-to-greece-cont {
         margin: 0 auto 0 auto;
     }
@@ -1690,7 +1695,7 @@ body {
         display: flex;
         z-index: 999;
     }
-    
+
     .destination-card {
         margin-right: 10px;
     }
@@ -1722,7 +1727,7 @@ body {
     }
 
     .destination-card2 {
-        margin: 25px auto 0 auto; 
+        margin: 25px auto 0 auto;
     }
 
 }
@@ -1816,6 +1821,10 @@ body {
         margin-left: 10px;
     }
 
+    .partners-alitalia {
+        margin: 0 auto;
+    }
+
 }
 
 @media (max-width: 800px) {
@@ -1889,6 +1898,12 @@ body {
 
 }
 
+@media (max-width: 741px) {
+    .partners-qantas {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 715px) {
 
     .last__header-abouts-cont {
@@ -1900,7 +1915,7 @@ body {
     }
 
 }
- 
+
 @media (max-width: 700px) {
 
     .destination-card {
@@ -1914,7 +1929,7 @@ body {
 }
 
 @media (max-width: 666px) {
-    
+
     .destination-card {
         margin: 0 auto 25px auto;
     }
@@ -1985,6 +2000,12 @@ body {
 
 }
 
+@media (max-width: 577px) {
+    .partners {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 555px) {
 
     .mike-cont {
@@ -2048,13 +2069,18 @@ body {
 
 }
 
-/* @media (max-width: 480px) {
+@media (max-width: 486px) {
 
-    .easy-steps-title2 {
-        width: 318px;
+    /* .partner-exp {
+        top: 60px;
+        margin: 0 auto 0 auto;
+    } */
+
+    .partners-alitalia {
+        margin-top: 70px;
     }
 
-} */
+}
 
 @media (max-width: 480px) {
 
@@ -2091,26 +2117,38 @@ body {
 
 }
 
+@media (max-width: 425px) {
+
+    .ongoing-trip-cont {
+        left: 170px;
+    }
+
+}
+
 @media (max-width: 420px) {
 
     .play-btn {
         margin-left: 10px;
     }
 
-    .easy-steps {
+    #easy-steps {
         margin: 0 auto;
+        text-align: center;
+        /* transform: translateX(50px); */
     }
 
     .choose-destination-cont {
         height: auto;
         width: 318px;
         display: grid;
+        margin: 0 auto;
     }
 
     .make-payment-cont {
         height: auto;
         width: 318px;
         display: grid;
+        margin: 25px auto 0 auto;
     }
 
     .easy-steps-list-img {
@@ -2143,6 +2181,10 @@ body {
 
     .heart {
         margin-left: 100px;
+    }
+
+    .ongoing-trip-cont {
+        left: 120px;
     }
 
 }
@@ -2228,9 +2270,13 @@ body {
     .trip-to-greece {
         width: 295px;
     }
-    
+
     .trip-girl {
         width: 295px;
+    }
+
+    .ongoing-trip-cont {
+        left: 100px;
     }
 
 }
